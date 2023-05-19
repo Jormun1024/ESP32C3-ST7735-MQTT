@@ -1,10 +1,5 @@
-import os
 import cv2
 
-# path = './image'
-# filelist = os.listdir(path)
-# filelist = sorted(filelist)
-i=1
 for i in range(1,3):
     f=cv2.imread('./image/'+str(i)+'.jpg')
     img = cv2.resize(f,(128,160),interpolation=cv2.INTER_CUBIC)
