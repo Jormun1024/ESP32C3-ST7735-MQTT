@@ -4,15 +4,15 @@ from ST7735 import TFT, TFTColor
 from machine import SPI, Pin, PWM, Timer
 from umqtt.simple import MQTTClient
 
-broker_address = '211.81.51.133'# MQTT服务器地址
-broker_port = '1885'# MQTT服务器端口
-client_id = 'mqttx_5c929375'# MQTT设备id
-user_name = 'iot016'# mqtt 设备用户名
-password = 'pwd2023'# mqtt 设备密码
+broker_address = '127.0.0.1'# MQTT服务器地址
+broker_port = '1883'# MQTT服务器端口
+client_id = 'mqttx_114514'# MQTT设备id
+user_name = '可莉不知道哦'# mqtt 设备用户名
+password = '可莉不知道哦'# mqtt 设备密码
 publish_topic = 'espsend'# 推送主题
 subscribe_topic = 'espreceive'# 订阅主题
-SSID = 'Jormun'
-PASSWORD = '20011204'
+SSID = '可莉不知道哦'#WLAN名称，只可选择2.4G WiFi
+PASSWORD = '可莉不知道哦'#WLAN密码
 wlan = network.WLAN(network.STA_IF)
 mqtt_client = None
 spi = SPI(1, baudrate=20000000,polarity=0,phase=0,sck=Pin(7),mosi=Pin(6),miso=Pin(2))
