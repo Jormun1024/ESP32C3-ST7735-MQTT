@@ -14,3 +14,4 @@ Peiyang University 电子系统设计2 验收实验
 • 具有不低于上述功能开发难度的其他功能
 • 根据难度和创意给分
 本人使用的是Thonny IDE，其中，main.py&jormun.py在Thonny IDE中使用，而photo_resize.py是在Spyder IDE中使用，用于修改图片格式及分辨率
+通过摩斯电码向上位机发送消息功能存在str变为nonetype的问题，由于ESP32被老师回收，无法debug
