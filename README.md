@@ -1,5 +1,5 @@
 # ESP32C3-ST7735-MQTT<br/>
-Peiyang University 电子系统设计2 验收实验<br/>
+Peiyang University<br/>
 使用WeAct的ESP32C3开发版驱动ST7735液晶屏并连接MQTT服务器实现一定功能<br/>
 实验必做功能（满分80）<br/>
 • 1个按键输入、1个LED输出<br/>
